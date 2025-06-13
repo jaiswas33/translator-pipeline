@@ -7,9 +7,9 @@ from google.cloud import storage
 from vertexai.generative_models import GenerativeModel
 import vertexai
 
-PROJECT_ID = os.getenv("PROJECT_ID", "eight-brothers")
-REGION = os.getenv("REGION", "us-central1")
-MODEL_NAME = "gemini-2.5-flash-preview-05-20"
+PROJECT_ID = os.getenv("PROJECT_ID", "PROJECT_ID")
+REGION = os.getenv("REGION", "REGION")
+MODEL_NAME = "MODEL_NAME"
 FONT_PATH = os.path.join(os.path.dirname(__file__), "NotoSans-Regular.ttf")
 
 vertexai.init(project=PROJECT_ID, location=REGION)
